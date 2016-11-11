@@ -26,6 +26,6 @@ setup(
     ],
     keywords='blueliv api crime servers bot ips security',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    install_requires=['requests>=2.4.0, <= 2.5.1', 'python-dateutil>=2.4.0'],
+    install_requires=['requests>=2.4.0', 'python-dateutil>=2.4.0'],
     test_requires=['mock']
 )
